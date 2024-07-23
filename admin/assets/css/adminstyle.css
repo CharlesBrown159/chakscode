@@ -1,0 +1,21 @@
+
+
+body {
+    background-color: #fbfbfb;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .active{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 102, 255);
+  }
+
+  .navbar-nav {
+    --bs-nav-link-hover-color: blue;
+    --bs-nav-link-hover-background-color: aqua;
+}
+
+

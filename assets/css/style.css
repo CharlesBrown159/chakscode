@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+    .sidenavbar {
+        display: none;
+    }
+
+    #sidenavbar {
+        display: none;
+    }
+}
+
+body {
+    background-image: url("assets/img/chaks bg2.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodybg {
+    background-image: url("assets/img/chaks bg2.jpg");
+}
+
+.list-group {
+    font-size: x-large;
+    margin: 10px;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+    color: black;
+    border-left: 7px solid #dc3545;
+    
+}
+.list-group-item-action.active{
+    background-color: #f1f1f1;
+    color: black;
+    border-color: white;
+    border-left: 7px solid #dc3545;
+    
+}
+
+.prodname {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.prodprice {
+    font-size: 20px;
+    color: red;
+}
+
+h1, h2 ,h3 , h4, h5, h6, a, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.proddesc {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+
